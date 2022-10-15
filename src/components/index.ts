@@ -1,0 +1,13 @@
+export { default as Layout } from "./Layout";
+export { default as Header } from "./Header";
+export { default as EcoSystem } from "./EcoSystem";
+export { default as Landing } from "./Landing";
+export { default as Blog } from "./Blog";
+export { default as Team } from "./Team";
+export { default as Roadmap } from './Roadmap'
+export { default as CloudaxRoadmap } from './CloudaxRoadmap'
+export { default as Join } from './Join'
+export { default as FAQSection } from "./FAQSection";
+export { default as Tokenomics } from "./Tokenomics";
+export { default as WhyCloudax } from "./WhyCloudax";
+export { default as Footer } from "./Footer";
