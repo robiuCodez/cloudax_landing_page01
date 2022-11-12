@@ -4,7 +4,7 @@ import { SiTwitter, SiLinkedin } from "react-icons/si";
 
 const TeamCard = ({ imageSrc, name, role, linkedInUrl, twitterUrl }: ITeam) => {
   return (
-    <div className="space-y-2">
+    <div className="inline-block cursor-pointer ease-in-out duration-300">
       <Image
         src={imageSrc}
         alt=""

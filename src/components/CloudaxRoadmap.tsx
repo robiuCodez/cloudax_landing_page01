@@ -23,13 +23,11 @@ const CloudaxRoadmap = () => {
         </div>
       </div>
 
-      <div className="bg-yellow-300 w-[20px] h-[800px] absolute text-center inset-x-0 mx-auto"></div>
+      {/* <div className="bg-yellow-300 w-[20px] h-[800px] absolute text-center inset-x-0 mx-auto"></div> */}
 
       {/* roadmap section */}
       <div>
-        {roadmap.map((info, index) => (
-          <RoadmapCard key={index} {...info} />
-        ))}
+        <RoadmapCard />
       </div>
     </div>
   );

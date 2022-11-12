@@ -6,7 +6,7 @@ import NavLink from "./Utilities/NavLink";
 
 const Header = () => {
   return (
-    <header className="bg-cloudax-blue fixed inset-x-0 top-0 z-50 flex items-center w-full justify-between px-10 py-3 ">
+    <header className="bg-cloudax-blue bg-opacity-90 fixed inset-x-0 top-0 z-50 flex items-center w-full justify-between px-10 py-3 border-b-2 border-b-blue-600">
       {/* logo */}
       <div className="">
         <Image

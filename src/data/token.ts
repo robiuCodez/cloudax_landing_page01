@@ -20,38 +20,38 @@ export const tokenPrices = [
 export const infoIcons = [
   {
     title: "Ecosystem",
-    color: "pink-600",
+    color: "bg-pink-600",
   },
   {
     title: "Marketing",
-    color: "orange-200",
+    color: "bg-orange-200",
   },
   {
     title: "Development",
-    color: "yellow-600",
+    color: "bg-yellow-600",
   },
   {
     title: "Liquidity",
-    color: "sky-600",
+    color: "bg-sky-600",
   },
   {
     title: "Team",
-    color: "green-500",
+    color: "bg-green-500",
   },
   {
     title: "Advisers",
-    color: "orange-600",
+    color: "bg-orange-600",
   },
   {
     title: "Angel Safe",
-    color: "blue-800",
+    color: "bg-blue-800",
   },
   {
     title: "Private Sale",
-    color: "gray-300",
+    color: "bg-gray-300",
   },
   {
     title: "Public Sale",
-    color: "gray-800",
+    color: "bg-gray-800",
   },
 ];

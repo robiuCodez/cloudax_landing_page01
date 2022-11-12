@@ -4,32 +4,31 @@ import { Doughnut } from "react-chartjs-2";
 ChartJS.register(ArcElement, Tooltip, Legend);
 
 export const data = {
-  
   datasets: [
     {
       label: "",
-      data: [12, 19, 13, 3, 5, 3, 5, 8, 9],
+      data: [25, 12, 18, 12, 5, 3, 3, 6, 9],
       backgroundColor: [
-        "rgba(234, 88, 12, 0.6)",
-        "rgba(254, 215, 170, 0.2)",
-        "rgba(202, 138, 4, 0.6)",
-        "rgba(2, 132, 199, 0.6)",
-        "rgba(34, 197, 94, 0.5)",
-        "rgba(234, 88, 12, 0.6)",
-        "rgba(37, 99, 235, 0.3)",
-        "rgba(75, 85, 99, 0.3)",
-        "rgba(75, 85, 99, 0.8)",
+        "#4C53F7",
+        "#FFEFCA",
+        "#F7B34C",
+        "#4CF7CE",
+        "#A0E1A5",
+        "#FC9265",
+        "#D868FF",
+        "#DBE3F1",
+        "#353F4F",
       ],
       borderColor: [
-        "rgba(234, 88, 12, 0.6)",
-        "rgba(254, 215, 170, 0.2)",
-        "rgba(202, 138, 4, 0.6)",
-        "rgba(2, 132, 199, 0.6)",
-        "rgba(34, 197, 94, 0.5)",
-        "rgba(234, 88, 12, 0.6)",
-        "rgba(37, 99, 235, 0.3)",
-        "rgba(75, 85, 99, 0.3)",
-        "rgba(75, 85, 99, 0.8)",
+        "#4C53F7",
+        "#FFEFCA",
+        "#F7B34C",
+        "#4CF7CE",
+        "#A0E1A5",
+        "#FC9265",
+        "#D868FF",
+        "#DBE3F1",
+        "#353F4F",
       ],
       borderWidth: 1,
     },
@@ -37,7 +36,11 @@ export const data = {
 };
 
 const DoughnutChart = () => {
-  return <Doughnut data={data} />
+  return (
+    <div className="w-full h-full">
+      <Doughnut data={data} />
+    </div>
+  );
 };
 
 export default DoughnutChart;

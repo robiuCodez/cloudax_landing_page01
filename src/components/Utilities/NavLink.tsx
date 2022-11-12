@@ -10,8 +10,8 @@ interface INavLink {
 const NavLink = ({ link, route, Icon }: INavLink) => {
   return (
     <Link href={route}>
-      <a className="flex items-center space-x-3">
-        <p>{link}</p>
+      <a className="flex hover:border-b-2 hover:border-bottom-gray-50 items-center space-x-3 mb-3">
+        <p className="">{link}</p>
         {Icon && <Icon />}
       </a>
     </Link>

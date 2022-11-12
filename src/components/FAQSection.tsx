@@ -1,10 +1,11 @@
 import React from "react";
 import { faqData } from "../data/faqData";
+import { Collapsible } from "./Utilities";
 
 const FAQSection = () => {
   return (
     <div
-      className="bg-black text-gray-50 px-10 h-screen py-10 flex items-start justify-between w-full font-space"
+      className="bg-black relative text-gray-50 px-10 h-screen py-10 flex items-start justify-between w-full font-space"
       id="frequently-asked-questions"
     >
       <div className="w-1/2 space-y-5">
@@ -21,10 +22,7 @@ const FAQSection = () => {
       <div className="w-1/2 border-spacing-y-4 border-yellow-200">
         <div className="w-full">
           {faqData.map((info, index) => (
-            <details key={index} className="">
-              <summary>{info.summary}</summary>
-              <p>{info.text}</p>
-            </details>
+            <Collapsible key={index} summary={info.summary} text={info.text} />
           ))}
         </div>
       </div>
